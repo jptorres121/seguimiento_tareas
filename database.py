@@ -2,7 +2,7 @@ import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-DATABASE_URL = os.getenv("DATABASE_URL")
+DATABASE_URL = os.getenv("dpg-d0dbnrk9c44c73calo6g-a")
 
 if not DATABASE_URL:
     raise RuntimeError("DATABASE_URL no está definida. Verifica tus variables de entorno en Render.")
